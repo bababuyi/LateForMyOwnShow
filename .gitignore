@@ -1,0 +1,19 @@
+rm .gitattributes
+cat > .gitignore << 'EOF'
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LateForMyOwnShow.uproject
+!/Config/
+!/Content/
+/Content/*
+!/Content/BluePrints/
+!/Content/Input/
+!/Content/Levels/
+!/Content/Crowd/
+!/Content/Fonts/
+!/Content/Assets/
+/Content/Assets/*
+!/Content/Assets/NS_StageSparks.uasset
+EOF
